@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    box-sizing: border-box;
+}
+.header {
+display: flex;
+justify-content: flex-end;
+margin-right: 30px;
+margin-top: 1.6rem;
+margin-bottom: 2rem;
+}
+.app a {
+    margin-left: 1.5rem;
+}
+
+#link {
+    margin-top: 7px;
+}
+
+.app i {
+    font-size: 28px;
+    color: rgb(206, 206, 206);
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    box-shadow: 3px 3px 3px 2px rgb(226, 224, 224);
+}
+.img i {
+    font-size: 25px;
+    color: cornflowerblue;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.title img {
+width: 100% ;
+height: 100%;
+margin-bottom: 3rem;
+}
+.input-container{
+    width: 1000px;
+    min-width: 300px;
+}
+input {
+    margin-top: -1.8rem;
+    margin-bottom: 3rem;
+    padding: 5px 8px 0 28px;
+    background-color: transparent;
+    color: rgba(0,0,0,.87);
+    word-wrap: break-word;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    height: 48px;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    border-radius: 24px;
+    z-index: 3;
+    font-family: arial,sans-serif;
+    width: 85%;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+#search {
+    position: relative;
+    left: 3rem;
+    font-size: 17px;
+    color: rgb(172, 171, 171);
+}
+#audio {
+    position: relative;
+    right: 3rem;
+    color: cornflowerblue;
+}
+button{
+    margin: 0.2rem;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    padding: 9px 18px 40px 18px;
+    line-height: 30px;
+    height: 36px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    appearance: auto;
+    cursor: text;
+}
+.text {
+    display: flex;
+    line-height: 28px;
+    font-size: large;
+    font-family: arial,sans-serif;
+    color: #222;
+    letter-spacing: 0.2px;
+}
+.text p {
+    font-weight: 100;
+    margin-right: 4px;
+}
+.text a {
+    text-decoration: none;
+    margin-right:10px ;
+    margin-top: 18.5px;
+}
+.footer {
+    position: fixed;
+    width: 100vw;
+    top: 38rem;
+    display: flex;
+    flex-direction: column;
+    background: #f2f2f2;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+    color: #222;
+}
+.footer-top{
+    padding: 8px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 20px;
+    color: rgba(0,0,0,.54);
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+.footer-bottom a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgba(0,0,0,.54);
+}
+.left a {
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.right a {
+    margin-right: 1.4rem;
+}
+@media  screen and (max-width:1000px) {
+    .input-container{
+        width: 700px;
+    }
+    .footer {
+        top: 37.9em;
+    }    
+
+    .footer-top {
+        padding: 0px 30px;
+        font-size: 17px;
+    }
+    .footer-bottom {
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        padding-top: 25px;
+    }
+    #order1{
+        order: 1;
+    }
+    #order2{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        order: 2;
+    }
+    #order3{
+        order: 3;
+    }
+}
+@media  screen and (max-width:500px) {
+    .input-container{
+        width: 500px;
+        min-width: 300px;
+    }
+    
+}
+@media  screen and (max-width:300px) {
+    .input-container{
+        width: 300px;
+
+    }
+    
+}
+@media  screen and (min-width:300px) {
+    .input-container{
+        width: 600px;
+
+    }
+    
+}
