@@ -3,7 +3,10 @@ body{
     padding: 0;
     font-family: arial,sans-serif;
     box-sizing: border-box;
-    overflow-y: hidden;
+    overflow: hidden;
+}
+* {
+    overflow: hidden;
 }
 .header {
 display: flex;
@@ -139,9 +142,8 @@ button{
     margin-top: 18.5px;
 }
 .footer {
-    position: fixed;
     width: 100vw;
-    top: 38rem;
+    margin-top: 10.5rem;
     display: flex;
     flex-direction: column;
     background: #f2f2f2;
@@ -177,15 +179,19 @@ button{
 
 @media  screen and (max-width:1000px) {
     .text {
+        margin-left: 0.5rem;
         line-height: 24px;
-        font-size: medium;
-    }    
+        font-size: 12px;
+    } 
+    .text a {
+        margin-top: 12.6px;
+    }   
     .input-container{
         width: 620px;
     }
-    .footer {
+    /* .footer {
         top: 37.9em;
-    }    
+    }     */
 
     .footer-top {
         padding: 0px 30px;
@@ -231,13 +237,25 @@ button{
         padding: 6px 14px 30px 14px;
         height: 30px;
     }
+    /* .footer {
+        top: 34.9em;
+    }     */
+    .footer-top {
+        padding: 0px 30px;
+        font-size: 13px;
+    }
+    .footer-bottom a {
+        font-size: 13px;
+    }
+    
+
       
 }
-@media  screen and (max-width:300px) {
+@media  screen and (max-width:360px) {
     .input-container {
-        width: 170px;
+        width: 350px;
     }
     input {
-        width: 70%;
+        width: 80%;
     }
 }
