@@ -3,7 +3,7 @@ body{
     padding: 0;
     font-family: arial,sans-serif;
     box-sizing: border-box;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 * {
     overflow: hidden;
