@@ -69,9 +69,8 @@ margin-bottom: 3rem;
     width: 1000px;
 }
 input {
-    margin-top: -1.8rem;
-    margin-bottom: 3rem;
-    padding: 5px 20px 0 28px;
+    margin-bottom: 5rem;
+    padding: 5px 20px 0 62px;
     background-color: transparent;
     color: rgba(0,0,0,.87);
     word-wrap: break-word;
@@ -189,10 +188,9 @@ button{
     .input-container{
         width: 620px;
     }
-    /* .footer {
-        top: 37.9em;
-    }     */
-
+    input {
+        height: 40px;
+    }
     .footer-top {
         padding: 0px 30px;
         font-size: 17px;
@@ -219,7 +217,7 @@ button{
         order: 3;
     }
 }
-@media  screen and (max-width:500px) {
+@media  screen and (max-width:580px) {
     .input-container{
         width: 400px;
     }
@@ -251,11 +249,11 @@ button{
 
       
 }
-@media  screen and (max-width:360px) {
+@media  screen and (max-width:365px) {
     .input-container {
         width: 350px;
     }
     input {
-        width: 80%;
+        width: 70%;
     }
 }
